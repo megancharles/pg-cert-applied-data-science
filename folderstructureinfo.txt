@@ -26,3 +26,29 @@ Notebooks vs. scripts: Use Jupyter for experimentation, then refactor the code i
 Data: Never commit large or sensitive datasets to your repository. Use .gitignore to exclude them.
 
 Version control: Commit often with meaningful messages.
+
+Example of Jupyter notebook structure
+# File: data_analysis.py
+
+# 1. Import libraries
+import os
+import re
+import pandas as pd
+import numpy as np
+from tqdm import tqdm
+import plotly.graph_objects as go
+import time
+import matplotlib.sankey as san
+import matplotlib.pyplot as plt
+import plotly.express as px
+
+# 2. Your functions and classes would go here
+
+# 3. Main code logic
+def main():
+    # Your data analysis and visualization code
+    pass
+
+if __name__ == "__main__":
+    main()
+
